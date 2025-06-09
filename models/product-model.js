@@ -1,7 +1,8 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
-const productSchema = mongoose.connect({
-    image: String,
+// ✅ Define schema using mongoose.Schema
+const productSchema = new mongoose.Schema({
+    image: Buffer,
     name: String,
     price: Number,
     discount: {
@@ -11,6 +12,10 @@ const productSchema = mongoose.connect({
     bgcolor: String,
     panelcolor: String,
     textcolor: String 
-})
+});
 
-module.exports = mongoose.model("product", productSchema)
+// ✅ Create model
+const Product = mongoose.model("Product", productSchema);
+
+// ✅ Export the model
+module.exports = Product;
