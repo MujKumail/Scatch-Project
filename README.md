@@ -1,7 +1,9 @@
 👜 SCATCH – Bag Shop Website
+
 SCATCH is a modern e-commerce website for bags, built using Node.js, Express.js, MongoDB, and EJS. The platform supports users, product listings, and owner management, with essential features like login, flash messaging, and session handling.
 
 🚀 Features
+
 🛍️ Product Listing & Management
 
 👤 User Registration & Login
@@ -17,6 +19,7 @@ SCATCH is a modern e-commerce website for bags, built using Node.js, Express.js,
 🧭 Modular Routing Structure
 
 🛠️ Tech Stack
+
 Backend: Node.js, Express.js
 
 Database: MongoDB with Mongoose
@@ -35,15 +38,18 @@ Others: cookie-parser, express.json, express.urlencoded
 
 SCATCH/
 │
+
 ├── config/
 │   └── mongoose-connection.js       # MongoDB connection setup
 │
+
 ├── routes/
 │   ├── index.js                     # Home & shared routes
 │   ├── ownersRouter.js              # Routes for shop owners
 │   ├── productsRouter.js            # Routes for bags/products
 │   └── usersRouter.js               # Routes for user authentication
 │
+
 ├── views/
 │   ├── includes/                    # Header, footer, partials
 │   ├── products/                    # Product-related views
@@ -51,6 +57,7 @@ SCATCH/
 │   ├── owners/                      # Owner dashboard/views
 │   └── index.ejs                    # Homepage
 │
+
 ├── public/                          # Static files (CSS, images)
 │
 ├── .env                             # Environment variables
@@ -61,10 +68,12 @@ SCATCH/
 🔧 Environment Setup
 
 1. Clone the repository
+ 
    git clone https://github.com/your-username/scatch-bag-shop.git
    cd scatch-bag-shop
 
 2. Install dependencies
+  
    npm install
 
 🔐 Authentication & Security
