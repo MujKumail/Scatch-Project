@@ -40,30 +40,48 @@ SCATCH/
 │
 
 ├── config/
+
 │   └── mongoose-connection.js       # MongoDB connection setup
+
 │
 
 ├── routes/
+
 │   ├── index.js                     # Home & shared routes
+
 │   ├── ownersRouter.js              # Routes for shop owners
+
 │   ├── productsRouter.js            # Routes for bags/products
+
 │   └── usersRouter.js               # Routes for user authentication
+
 │
 
 ├── views/
+
 │   ├── includes/                    # Header, footer, partials
+
 │   ├── products/                    # Product-related views
+
 │   ├── users/                       # Login/Register views
+
 │   ├── owners/                      # Owner dashboard/views
+
 │   └── index.ejs                    # Homepage
 │
 
 ├── public/                          # Static files (CSS, images)
+
 │
+
 ├── .env                             # Environment variables
+
 ├── .gitignore
+
 ├── app.js                           # Main server file
+
 └── README.md
+
 
 🔧 Environment Setup
 
